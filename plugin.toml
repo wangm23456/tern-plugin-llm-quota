@@ -1,0 +1,14 @@
+schema = 1
+id = "llm-quota"
+name = "LLM 用量与额度"
+version = "0.1.0"
+description = "显示 LLM Token 消耗统计与各 Provider Plan 额度监控看板"
+host = "host.luau"
+window = "window.luau"
+styles = ["style.css"]
+
+[[blocks]]
+id = "main"
+title = "LLM Quota & Usage Monitor"
+icon = "sparkle"
+palette = true
